@@ -4,6 +4,7 @@
 @media screen {
 
   header {
+    width: 100%;
     background-color: black;
   }
   nav {
@@ -16,7 +17,7 @@
   }
   nav ul li {
     display: inline-block;
-    font-size: 30px;
+    font-size: 1em;
     padding: 0px 10px 0px 10px;
   }
 
@@ -29,12 +30,40 @@
     color: green;
   }
 
+  body, html {
+    font-family:'MaisonNeue-Light';
+    background-color: #005493;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #005493;
+  }
+
+  .imgCircle {
+    border-radius: 50%;
+}
+
+  .colourGrey {
+    background-color: #eee;
+  }
+
   /* Call to Action Styling */
 
   .callToAction {
-    height: 800px;
+    display: table;
     position: relative;
+    width: 100%;
+    height: 800px;
     overflow: hidden;
+  }
+
+  .calltoTitles {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
   }
 
   .callToAction img {
@@ -42,17 +71,38 @@
   }
 
   .callToAction h1 {
-    position: absolute;
-    left: 46%;
-    top: 46%;
+    color: #fff;
+    font-size: 5em;
+  }
+
+  .callToAction h2 {
+    color: #fff;
   }
 
   /* Pledge Block Style */
 
   .pledgeWrapper {
     height: 800px;
-    background-color: black;
     position: relative;
+  }
+
+  .pledgeToAction {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 800px;
+  }
+
+  .pledgeTitles {
+    display: table-cell;
+    width: 50%;
+    height: 800px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .pledgeContent {
+    padding: 200px;
   }
 
   .pledgeBar {
@@ -68,16 +118,36 @@
     color: white;
   }
 
-  .pledgeWrapper h1 {
-    position: absolute;
-    left: 48%;
-    top: 30%;
-  }
-
   .pledgeProgress {
     height: 99px;
-    width:75%;
+    width: 75%;
     background-color: green;
+  }
+
+
+  /* Call to Action Styling */
+
+  .callToMap {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+  }
+
+  .callToMapMain {
+    display: table-cell;
+    vertical-align: middle;
+    background: url(../img/map.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+  }
+
+  .callToAction img {
+    width: 100%;
   }
 
 }
