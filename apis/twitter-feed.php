@@ -1,6 +1,5 @@
 
 <?php
-// require_once 'lib/twitteroauth.php';
 require "../vendor/autoload.php";
 use Abraham\TwitterOAuth\TwitterOAuth;
 
