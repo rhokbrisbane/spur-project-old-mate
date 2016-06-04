@@ -1,1 +1,57 @@
 /* Styles live here */
+
+/* Header Styling */
+@media screen {
+
+  header {
+    background-color: black;
+  }
+  nav {
+    text-align: center;
+  }
+
+  nav ul {
+    display: inline-block;
+    padding: 0;
+  }
+  nav ul li {
+    display: inline-block;
+    font-size: 30px;
+    padding: 0px 10px 0px 10px;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: green;
+  }
+
+  /* Call to Action Styling */
+
+  .callToAction {
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .callToAction img {
+    width: 100%;
+  }
+
+  .callToAction h1 {
+    position: absolute;
+    left: 46%;
+    top: 46%;
+  }
+
+  /* Pledge Block Style */
+
+  .pledgeWrapper {
+    height: 800px;
+    background-color: blue;
+  }
+
+}
