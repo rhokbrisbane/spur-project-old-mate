@@ -1,0 +1,744 @@
+/* 
+====================
+GLOBAL
+====================
+*/
+
+html, body {
+	font-size: 1em;
+	background: url('/images/background.jpg'), #ffffff;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+/* 
+====================
+FONTS
+====================
+*/
+
+@font-face {
+	font-family: 'bebas_bold';
+	src: url('/fonts/bebas_bold.eot?') format('eot');
+	src: url('/fonts/bebas_bold.eot?iefix') format('embedded-opentype'),
+	url('/fonts/bebas_bold.woff') format('woff'),
+	url('/fonts/bebas_bold.ttf') format('truetype'),
+	url('/fonts/bebas_bold.svg#bebas_bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'bebas_regular';
+	src: url('/fonts/bebas_regular.eot?') format('eot');
+	src: url('/fonts/bebas_regular.eot?iefix') format('embedded-opentype'),
+	url('/fonts/bebas_regular.woff') format('woff'),
+	url('/fonts/bebas_regular.ttf') format('truetype'),
+	url('/fonts/bebas_regular.svg#bebas_regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'bebas_book';
+	src: url('/fonts/bebas_book.eot?') format('eot');
+	src: url('/fonts/bebas_book.eot?iefix') format('embedded-opentype'),
+	url('/fonts/bebas_book.woff') format('woff'),
+	url('/fonts/bebas_book.ttf') format('truetype'),
+	url('/fonts/bebas_book.svg#bebas_book-') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'nova';
+	src: url('/fonts/nova.eot?') format('eot');
+	src: url('/fonts/nova.eot?iefix') format('embedded-opentype'),
+	url('/fonts/nova.woff') format('woff'),
+	url('/fonts/nova.ttf') format('truetype'),
+	url('/fonts/nova.svg#nova') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* IcoMoon*/
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('/fonts/icomoon.eot?2z3ls7');
+	src:url('/fonts/icomoon.eot?#iefix2z3ls7') format('embedded-opentype'),
+		url('/fonts/icomoon.woff?2z3ls7') format('woff'),
+		url('/fonts/icomoon.ttf?2z3ls7') format('truetype'),
+		url('/fonts/icomoon.svg?2z3ls7#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 1em;
+	
+
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-facebook:before {
+	content: "\e600";
+	font-size: .8em;
+}
+
+.icon-twitter:before {
+	content: "\e601";
+		font-size: .8em;
+}
+
+.icon-youtube:before {
+	content: "\e602";
+		font-size: .8em;
+}
+
+.icon-mail:before {
+	content: "\e900";
+		font-size: .8em;
+}
+
+
+
+
+
+/* End IcoMoon */
+
+
+
+p, ol li, ul li {
+	font-family: 'nova', sans-serif;
+	color: #fff;
+	line-height:1.2;
+}
+
+ol li, ul li {
+	font-size: 1.1em;
+	margin-bottom: 1em;
+}
+
+p {
+	font-size: 1.2em;
+}
+
+p a:hover {
+	color: #1F557B;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'bebas_bold', sans-serif;
+	font-weight:normal;
+	text-transform:uppercase;
+	padding: 0;
+	line-height: 1;
+	margin: .2em 0 .3em 0;
+
+}
+
+
+.list {
+	list-style: none;
+	list-style-position: inside;
+    text-indent: -1.5em;
+}
+
+.list:before {
+	content: "◦";
+	margin: 0 15px 0 0;
+	color: #00b4ff;
+
+}
+
+h1 {
+	font-size: 6em;	
+	color: #fff;
+	line-height: .8;
+}
+
+h2, h3 {
+	font-family: 'bebas_regular', sans-serif;	
+	font-size: 2em;
+	color: #fff;
+}
+
+
+h4 {
+	color: #10A2CB;
+	font-size: 1.5em;
+}
+
+h5 {
+	font-family: 'bebas_book', sans-serif;
+	font-size: .8em;
+	font-weight: normal;
+	text-transform: uppercase;
+	color: #10A2CB;
+	line-height:1;
+}
+
+
+/* -- FONT CLASSES -- */
+
+
+a, a:hover, a:visited,
+h2 a, h2 a:hover, h2 a:visited
+{
+	text-decoration: none;
+	color: #ffffff;
+	cursor: pointer;
+
+}
+
+p a,  p a:visited,
+li a, li a:hover, li a:visited {
+	color:rgba(255,255,255,.5);
+	-webkit-transition: color 0.3s; /* For Safari 3.1 to 6.0 */
+	transition: color 0.3s;
+}
+
+p a:hover {
+	color:rgba(255,255,255,1);
+
+}
+
+.largeiconfont{
+	font-size:3em;
+	color: #4d4d4d;
+	padding:10px 5px;
+}
+
+.standardiconfont {
+	font-size: 1.2px;
+	color: #4d4d4d;
+	padding: 5px 0px;
+}
+
+.standardiconfont:hover, .largeiconfont:hover {
+	color: #00b4ff;	
+	-webkit-transition: color 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: color 0.3s;
+}
+
+.focus_text{
+	color: #fff;
+	font-size:1.2em;
+	font-weight: normal;
+}
+
+.focus_text_2{
+	font-family: 'bebas_regular';
+	color: #ccc;
+	font-size:1.5em;
+	font-weight: normal;
+}
+
+.bluetext, .bluetext a {
+	color: #00b4ff !important;
+}
+
+.giant {
+	font-size: 10em;
+	opacity: .8;
+	line-height: .8;
+	margin: 0;
+	padding: 0;
+}
+
+.top_bit_text {
+	font-size: .8em;
+	font-family: 'bebas_regular';
+}
+/* 
+====================
+GENERAL CLASSES AND PARAMETERS
+====================
+*/
+
+.main {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#484a93+0,005493+100&0.8+0,0.8+100 */
+background: -moz-linear-gradient(-45deg,  rgba(72,74,147,0.8) 0%, rgba(0,84,147,0.8) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(72,74,147,0.8) 0%,rgba(0,84,147,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(72,74,147,0.8) 0%,rgba(0,84,147,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc484a93', endColorstr='#cc005493',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.top_bit {
+	position: fixed;
+	margin-left: 1em;
+}
+
+.centertext {
+	text-align:center;	
+}
+
+.righttext {
+	text-align:right;	
+}
+
+.extrapadding {
+	padding: 20px 25px;		
+}
+
+.darkbackground {
+	background-color: #171717;
+	height:100%;
+	overflow:auto;	
+}
+
+hr {
+	color: #666;
+	background-color: #666;
+	border: none;
+	height: 1px;
+}
+
+.split {
+	height: 4em;	
+}
+
+
+/*======= BUTTONS ========*/
+
+
+.button_standard, .button_subtle, .button_blue {
+	text-transform:uppercase;
+	cursor:pointer;
+	text-align:center;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.button_standard:hover, .button_blue:hover {
+	color: #fff;
+}
+
+.button_subtle:hover {
+	color: #00b4ff;
+}
+
+
+.button_standard {
+	font-family: 'bebas_book', sans-serif;
+	font-size: 1.8em;
+	color: #808080;
+	padding: 25px;
+}
+
+.button_subtle {
+	font-family: 'bebas_bold', sans-serif;
+	font-size: 1.5em;
+	color: #282828;
+	padding: 15px 25px;
+}
+
+.button_blue {
+	color: #00b4ff !important;
+	font-family: 'bebas_book', sans-serif;
+	font-size: 1.8em;
+	padding: 25px 100px;
+}
+
+/* Button Animations */
+
+.outline, .outline_blue {
+  display: inline-block;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.outline:before, .outline_blue:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: top, right, bottom, left;
+  transition-property: top, right, bottom, left;
+}
+
+.outline:hover:before, .outline:focus:before, .outline:active:before,
+.outline_blue:hover:before, .outline_blue:focus:before, .outline_blue:active:before {
+  top: -4px;
+  right: -4px;
+  bottom: -4px;
+  left: -4px;
+}
+
+.outline:before {
+	border: #333 solid 5px;
+}
+
+
+.outline_blue:before {
+   border: #00b4ff solid 2px;
+ }
+
+
+
+/* End New buttons */
+
+
+
+
+
+.fullwidth {
+	width:80%;
+}
+
+
+
+
+.youtubewrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	margin: auto;
+}
+
+.youtubewrapperblank {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #5e5e5e;
+}
+
+.youtubewrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Vimeo */
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 90%;
+}
+
+
+/* -- MOBILE MENU -- */
+
+.hiddenuntilmobile  {
+	display:none;	
+}
+
+#hiddenmenu {
+	display: none;
+}
+
+
+
+
+/* 
+====================
+SECTIONS
+====================
+*/
+
+/* -- HOME -- */
+
+.header_mini {
+	font-size: .725em;
+	margin-top: -1em;
+}
+
+.header_large {
+	font-size: 1.2em;
+}
+
+.bannerbackground{
+	position: relative;
+	width:100%;
+	height:auto;
+	padding: 0em 0 0 0;
+}
+
+.mid-div{
+	background-color: #171717;
+}
+
+.light-div{
+	background-color: #333;
+}
+
+.divider_push {
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+}
+
+
+
+.image_cloud {
+	background-image: url("../images/cloud.png");
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.image_options {
+	position: relative;
+	margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+margin-bottom: -15px;
+}
+
+.image_grid {
+	padding:1px;
+}
+
+
+.image_grid:hover {
+	opacity: .5;
+		-webkit-transition: opacity 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: opacity 0.3s;
+
+}
+
+#home{
+	position: relative;
+	margin:auto;
+	overflow: visible;
+}
+
+/* -- FOOTER -- */
+
+
+
+.footer {
+	z-index: 1000;
+		background-color: rgba(0,0,0,.5); !important;
+}
+
+.footer p, .footer h1, .footer h2, .footer h3 {
+		font-family: 'bebas_regular';
+	color: #fff !important;
+
+}
+
+
+.footer p a:hover, .footer h1 a:hover, .footer h2 a:hover, .footer h3 a:hover {
+	color: #fff !important;
+
+}
+
+.footer p a, .footer h1 a, .footer h2 a, .footer h3 a{
+	color: rgba(255, 255, 255, .5) !important;
+	-webkit-transition: color 0.3s; /* For Safari 3.1 to 6.0 */
+	transition: color 0.3s;
+}
+
+.footer p a:hover, .footer h1 a:hover, .footer h2 a:hover, .footer h3 a:hover {
+	-webkit-transition: color 0.3s; /* For Safari 3.1 to 6.0 */
+	transition: color 0.3s;
+}
+
+.footer h3 {
+	font-size: 2em;
+}
+
+.footer .footerdonate a {
+	color: #ffffff !important;
+}
+
+.footer .footerdonate a:hover {
+	color: rgba(255,255,255,.5) !important;
+}
+
+/* DIVS */
+
+
+.hiddendiv, .splitdiv {
+	border-top: 1px solid #333;
+	background-color: #1a1a1a;
+}
+
+
+
+.wedge1 {
+	position: absolute;
+	left:25%;
+	margin-top: -1px;
+}
+
+.wedge2 {
+	position: absolute;
+	left:49%;
+	margin-top: -1px;
+}
+
+.wedge3 {
+	position: absolute;
+	left:75%;
+	margin-top: -1px;
+}
+
+
+
+/* 
+====================
+PLUGINS
+====================
+*/
+
+
+
+/* General Document and Fonts */
+
+
+
+h3 {
+	font-size: 2em;
+	color:;
+}
+
+
+.icon-clock, .icon-home, .icon-location {
+	color:#fff;
+}
+
+
+.list:before {
+     color: #  ;
+}
+
+
+/* Button Animations */
+
+/* Buttons */
+
+     /* Button Fonts */
+     .button_standard {
+          color:#fff; /* Matches Standard Font Colour */
+     }
+
+     .button_standard:hover  {
+          color: #3fa9f5; /* Matches "Special" Colour */ 
+     } 
+
+     .button_subtle {
+          color:#3fa9f5; /* Matches "Special" Font Colour */
+     }
+
+     .button_subtle:hover {
+          color: #3fa9f5; /* Matches Standard Font Colour */
+     }
+
+     /* Button Outline */
+     .outline:before {
+          border: #3fa9f5 solid 2px; /* Matches "Special" Font Colour */
+     } 
+
+
+.outline:before {
+          border: #3fa9f5 solid 2px; /* Matches "Special" Font Colour */
+     } 
+
+
+hr {
+	color: #f1f1f1;
+	background-color: #f1f1f1;
+	border: none;
+	height: 1px;
+}
+
+
+/* MENU COLOUR SCHEME */
+
+
+#desktopmenu ul li a{
+     color: #666 !important;
+}
+
+#desktopmenu ul li a:hover{
+     color: #3fa9f5 !important;
+}
+
+#desktopmenu ul, #desktopmenu li { 
+     color: #3fa9f5;
+
+}
+
+.active {
+     border-bottom: 1px solid #3fa9f5;
+}
+
+
+
+
+.splitdiv {
+     background-color:#3fa9f5;
+     border-top: 2px solid #3fa9f5;
+
+}
+
+.wedge2 {
+     margin-top: -3px;
+}
+
+
+.splitdiv h2{
+     color:#fff;
+}
+
+.white {
+     background-color: #fff;
+
+}
+
+
+.white h1 {
+     color: #3fa9f5;
+} 
+
+.white h2, .white h3, .white p{
+     color:#666 ;
+}
+
+
+
+
