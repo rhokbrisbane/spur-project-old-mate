@@ -1,15 +1,4 @@
-var markers = [
-  [1002, -30, 136.2092], // SA
-	[2000, -27.68, 121.63], // WA
- 	[123, -33.86,151.21], // NSW
- 	[50, -41.37, 146.63], // TAS
-	[22, -20.92, 142.7], // QLD
-  [12, -37.47, 144.79], // VIC
-  [12, -19.4914, 132.5510], // NT
-  [12, -35.4735, 149.0124] // ACT
-];
-
-function initializeMaps() {
+function initializeMaps(markers) {
 	var myLatLng = {lat: -25.2744, lng: 133.7751};
 
   var map = new google.maps.Map(document.getElementById('map_canvas'), {
@@ -103,5 +92,3 @@ function generateIcon(number, callback) {
     return String.fromCharCode('0x' + p1);
   }));
 }
-
-initializeMaps();
