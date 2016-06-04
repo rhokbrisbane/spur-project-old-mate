@@ -51,7 +51,33 @@
 
   .pledgeWrapper {
     height: 800px;
-    background-color: blue;
+    background-color: black;
+    position: relative;
+  }
+
+  .pledgeBar {
+    height: 100px;
+    width: 50%;
+    border: 5px solid white;
+    position: absolute;
+    left: 25%;
+    top: 40%;
+  }
+
+  .pledgeWrapper {
+    color: white;
+  }
+
+  .pledgeWrapper h1 {
+    position: absolute;
+    left: 48%;
+    top: 30%;
+  }
+
+  .pledgeProgress {
+    height: 99px;
+    width:75%;
+    background-color: green;
   }
 
 }
