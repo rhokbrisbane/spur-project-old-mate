@@ -4,8 +4,10 @@
 @media screen {
 
   header {
+    width: 100%;
     background-color: black;
   }
+
   nav {
     text-align: center;
   }
@@ -14,9 +16,10 @@
     display: inline-block;
     padding: 0;
   }
+
   nav ul li {
     display: inline-block;
-    font-size: 30px;
+    font-size: 1em;
     padding: 0px 10px 0px 10px;
   }
 
@@ -29,54 +32,142 @@
     color: green;
   }
 
-  /* Call to Action Styling */
+  body, html {
+    font-family:'MaisonNeue-Light';
+    background-color: #005493;
+  }
 
-  .callToAction {
-    height: 800px;
+  h1, h2, h3, h4, h5 {
+    font-weight: normal;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #005493;
+  }
+
+  .imgCircle {
+    width: 100%;
+    border-radius: 50%;
+    text-align: center;
+  }
+
+  .clearfix {
+    overflow: auto;
+    zoom: 1;
+  }
+
+  #map_canvas {
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+  }
+
+  img {
+    filter: gray;
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+  }
+
+/* Title Block Styling */
+
+  .titleBlock {
+    display: table;
     position: relative;
+    width: 100%;
     overflow: hidden;
   }
 
-  .callToAction img {
+  .titleContent {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .titleContent:before {
+    background: rgba(0,0,0,.4);
+  }
+
+  .backOne {
+    height: 800px;
+    background: url('../img/001.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .backTwo {
+    height: 800px;
+    background: url('../img/002.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .backThree {
+    height: 400px;
+    background: url('../img/003.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .backFour {
+    height: 400px;
+    background: url('../img/004.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  /* Content Styling */
+
+  .contentMain {
     width: 100%;
   }
 
-  .callToAction h1 {
-    position: absolute;
-    left: 46%;
-    top: 46%;
-  }
-
-  /* Pledge Block Style */
-
-  .pledgeWrapper {
+  .contentRow {
+    display: table;
+    width: 100%;
     height: 800px;
-    background-color: black;
-    position: relative;
   }
 
-  .pledgeBar {
-    height: 100px;
+  .contentCenter {
+    display: table-cell;
     width: 50%;
-    border: 5px solid white;
-    position: absolute;
-    left: 25%;
-    top: 40%;
+    padding: 200px;
+    vertical-align: middle;
   }
 
-  .pledgeWrapper {
-    color: white;
+  .contentTwitter {
+    display: block;
   }
 
-  .pledgeWrapper h1 {
-    position: absolute;
-    left: 48%;
-    top: 30%;
+  .contentGrid {
+    float: left;
+    width: 20%;
+    height: 30vh;
+    background: #eee;
   }
 
-  .pledgeProgress {
-    height: 99px;
-    width:75%;
-    background-color: green;
+  .contentStyle {
+    padding: 20px;
   }
-}
+
+  .contentCenter h1 {
+    color: #fff;
+  }
+
+  .contentCenter h2 {
+    color: #fff;
+  }
+
+  .mapContent {
+    padding: 100px;
+  }
