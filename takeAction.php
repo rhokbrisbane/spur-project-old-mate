@@ -8,9 +8,12 @@
   <!-- One Hour Headings -->
   <section class="titleBlock">
     <article class="titleContent backFive">
-      <h5>One Hour</h5>
-      <h2>Just one hour a month is all it takes to foster connectivity with an Old Mate.</h2>
-      <p>That's just 0.13% of your month</p>
+      <h5>Take Action</h5>
+      <ul>
+        <li>One Hour</li>
+        <li>One Friend</li>
+        <li>One Life</li>
+      </ul>
       </h2>
     </article>
   </section>
@@ -77,7 +80,7 @@
       </h2>
       </div>
       <div class="contentCenter">
-        <img class="imgCircle" src="img\ActionsCards.jpg">
+        <img class="imgCircle" src="img\ActionsDoubleDate.jpg">
       </div>
     </article>
   </section>
@@ -132,7 +135,7 @@
       </h2>
       </div>
       <div class="contentCenter">
-        <img class="imgCircle" src="img\actions-chess.jpeg">
+        <img class="imgCircle" src="img\ActionFriends.jpg">
       </div>
     </article>
   </section>
@@ -159,7 +162,7 @@
       </h2>
       </div>
       <div class="contentCenter">
-        <img class="imgCircle" src="img\actions-chess.jpeg">
+        <img class="imgCircle" src="img\ActionsCommunityGroup.jpg">
       </div>
     </article>
   </section>
