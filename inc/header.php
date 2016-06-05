@@ -44,7 +44,7 @@
       <li><a href="about.php">About</a></li>
       <li><a href="takeaction.php">Take Action</a></li>
       <li><a href="stories.php">Stories</a></li>
-      <li><a href="donate.php">Donate</a></li>
+      <li class="donate"><a href="https://donorbox.org/spur-projects">Donate</a></li>
     </ul>
   </nav>
 </header>

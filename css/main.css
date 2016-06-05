@@ -413,3 +413,8 @@
   .logo {
     width:50px !important;
   }
+
+/* CUrsor change for external link */
+  .donate a {
+    cursor: alias;
+  }
