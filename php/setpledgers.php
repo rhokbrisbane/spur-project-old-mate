@@ -24,6 +24,7 @@ function postToChimp(){
 	   'EMAIL' => $_POST['EMAIL'],
 	   'NAME' => $_POST['NAME'],
 	   'POSTCODE' => $_POST['POSTCODE'],
+	   'b_c319b91ac25607f4451c84e2b_a34e1c5eb6' => "",
 	);
 
 	// build the urlencoded data

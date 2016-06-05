@@ -1,11 +1,11 @@
 <?php
 session_start();
 include "php/queries.php";
-if(isset($_POST['submit'])) {
-	if(isset($_POST['name']) && isset($_POST['text']) && isset($_POST['postcode'])){
-		$name = $_POST['name'];
-		$text = $_POST['text'];
-		$postcode = $_POST['postcode'];
+if(isset($_POST['Submit'])) {
+	if(isset($_POST['NAME']) && isset($_POST['MESSAGE']) && isset($_POST['POSTCODE'])){
+		$name = $_POST['NAME'];
+		$text = $_POST['MESSAGE'];
+		$postcode = $_POST['POSTCODE'];
 		setStory($name, $text, $postcode);
 		
 	} else {

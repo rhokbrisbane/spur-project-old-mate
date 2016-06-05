@@ -387,15 +387,29 @@
 
 /* Footer Styling */
 
+  .footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  .footer a {
+    color: rgba(255, 255, 255, .5);
+    text-decoration: none;
+  }
+
+  .footer a:hover{
+    color: #fff;
+  }
+
   .footer .col1 {
-    padding: 25px 50px 25px 200px;
-
+    display: inline-block;
+    background-color: black;
+    width: 33.3%;
+    float: left;
+    min-height: 205px;
   }
 
-  .footer .col2 {
-    padding: 25px;
-  }
-
-  .footer .col3 {
-    padding: 25px 200px 25px 25px;
+  .logo {
+    width:50px !important;
   }

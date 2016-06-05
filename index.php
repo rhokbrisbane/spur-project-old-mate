@@ -8,7 +8,7 @@
     <!-- Call To Action-->
     <section class="titleBlock">
       <div class="titleContent backOne">
-        <h5>Old Mates</h5>
+        <h5>#OLDMATE</h5>
         <h2>Suicide Prevention Never Gets Old</h2>
       </div>
     </section>
@@ -19,9 +19,6 @@
         <?php
         include 'inc/slider.php';
         ?>
-        <!-- <div class="contentCenter">
-          <img class="imgCircle" src="img/guy.png">
-        </div> -->
         <div class="contentCenter">
           <h1>1 Hour Per Month</h1>
           <h2>Elderly men take their own lives at two times the national average. With just one hour per month, we can change that.</h2>
