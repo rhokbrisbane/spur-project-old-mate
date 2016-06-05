@@ -40,10 +40,11 @@
 <header class="header">
   <nav>
     <ul>
-      <li><a href="#1">Home</a></li>
-      <li><a href="#2">About</a></li>
-      <li><a href="#3">Stories</a></li>
-      <li><a href="#4">Donate</a></li>
+      <li><a href="index.php">Home</a></li>
+      <li><a href="about.php">About</a></li>
+      <li><a href="takeaction.php">Take Action</a></li>
+      <li><a href="stories.php">Stories</a></li>
+      <li><a href="donate.php">Donate</a></li>
     </ul>
   </nav>
 </header>
