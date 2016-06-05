@@ -41,14 +41,15 @@
     font-weight: normal;
   }
 
-  input {
-    width: 80%;
+  input, textarea {
+    width: 100%;
     margin: 0 0 10px 0 !important;
     border: none;
-    padding: 10px;
+    padding: 10px 0;
     color: #888;
     font-family: 'Roboto', sans-serif !important;
     font-size: 2em;
+    text-indent: 10px; 
   }
 
   input:focus, textarea:focus {
@@ -56,7 +57,7 @@
   }
 
   .submitButton {
-    width: 85%;
+    width: 100%;
     border: 2px solid #fff;
     color: #fff;
     background: none;
@@ -343,5 +344,18 @@
 
   .altText h1, .altText h2 {
     color: black;
+  }
+
+  .contactForm {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .contactInput {
+    width: 100%;
+  }
+
+  .contactText {
+    height: 200px;
   }
 
