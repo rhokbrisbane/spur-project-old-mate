@@ -8,21 +8,24 @@
   <!-- About Headings -->
   <section class="contentMain">
     <article class="contentCenter contentColor">
-    <h1>About</h1>
-    <h2>
-      Old Mate<br>
-      әʊld meɪt<br>
-      n. Australian colloquialism.
-      <ol>
-        <li>A word to describe a good friend</li>
-        <li>A word to describe a perfect stranger, or someone’s name you don’t know</li>
-        <li>A replacement term for a person's name within a sentence</li>
-      </ol>
-    </h2>
+    <div class="contentRow">
+      <h1>About</h1>
+      <h2>
+        Old Mate<br>
+        әʊld meɪt<br>
+        n. Australian colloquialism.
+        <ol>
+          <li>A word to describe a good friend</li>
+          <li>A word to describe a perfect stranger, or someone’s name you don’t know</li>
+          <li>A replacement term for a person's name within a sentence</li>
+        </ol>
+      </h2>
+    </div>
     </article>
   </section>
   <section class="contentMain">
     <article class="contentCenter altText">
+      <div class="contentRow">
         <h2>
           Suicide is national epidemic with over 2,000 Australian men taking their lives each year. Much of the focus and resources within
           preventative men’s mental health is aimed at men between the ages of the 14­44, which is understandable: Suicide is the leading
@@ -32,12 +35,16 @@
     <article class="contentCenter">
       <img src="img\aboutGraph1.png">
     </article>
+      </div>
   </section>
   <section class="contentMain contentColor">
     <article class="contentCenter">
+    <div class="contentRow">
       <img src="img\aboutGraph1.png">
+    </div>
     </article>
     <article class="contentCenter">
+    <div class="contentRow">
         <h2>
           These statistics, however, are misleading in understanding the real number of suicides.
           As men age, not only do a range of other health factors start to play a larger role in
@@ -47,6 +54,7 @@
           Suicide, in raw numbers, spikes in the 35­45 age bracket, and again in the 80+ age brackets;
           in this age bracket, exponentially so.
         </h2>
+    </div>
     </article>
   </section>
 

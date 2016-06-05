@@ -418,3 +418,68 @@
   .donate a {
     cursor: alias;
   }
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+    @media only screen and (max-width: 1300px) {
+
+        .contentGrid {
+          height: 40vh;
+        }
+
+        .contentGrid {
+          width: 50%;
+        }
+
+    }    
+
+    @media only screen and (max-width: 1250px) {
+
+      .contentCenter, .contentTwitter {
+        padding: 100px;
+      } 
+
+    }
+
+    @media only screen and (max-width: 991px) {
+
+    .contentTwitter {
+        padding: 0 0 0 15px;
+      }
+
+      .contentRow {
+        width: auto;
+        height: 400px;
+      }
+
+      .contentCenter {
+        display: block;
+        width: 100%;
+        padding: 50px 0;
+      }
+
+      .contentRow {
+        padding: 0 15px;
+      }
+
+      .footer .col1 {
+        width: 100%;
+      }
+
+    }
+
+    @media only screen and (max-width: 650px) {
+
+      .contentGrid{
+        width: 100%;
+        height: auto;
+      } 
+
+    }
+
+
+
