@@ -24,12 +24,12 @@
   }
 
   nav a {
-    color: white;
+    color: #fff;
     text-decoration: none;
   }
 
   nav a:hover {
-    color: green;
+    color: #005493;
   }
 
   body, html {
