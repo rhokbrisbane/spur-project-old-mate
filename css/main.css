@@ -116,6 +116,30 @@
     width: 100%;
   }
 
+/* Sub heading styles */
+
+.subheading {
+  display: table;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color: black;
+  color:white;
+}
+
+.subheading div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.subheading h2 {
+  margin-top: auto;
+  color: white;
+}
+
+/* Background Images for Index.php */
+
   .backOne {
     height: 800px;
     background: 
@@ -192,6 +216,17 @@
     filter: grayscale(100%);
   }
 
+/* Background Images for Onehour.php */
+
+.backFive {
+  height: 800px;
+  background: url('../img/onehourHero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
   /* Content Styling */
 
   .contentMain {
@@ -204,6 +239,10 @@
     background: -webkit-linear-gradient(-45deg,  rgba(72,74,147,0.8) 0%,rgba(0,84,147,0.8) 100%); 
     background: linear-gradient(135deg,  rgba(72,74,147,0.8) 0%,rgba(0,84,147,0.8) 100%); 
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc484a93', endColorstr='#cc005493',GradientType=1 );
+  }
+
+  .contentMain ul {
+    color: white;
   }
 
   .contentRow {
@@ -222,6 +261,10 @@
   .contentCenter h2 {
     margin: 0;
     font-family: 'Roboto', sans-serif;  
+  }
+  
+  .contentAlt {
+    background-color: black;
   }
 
   .contentTwitter {
