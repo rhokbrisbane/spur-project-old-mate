@@ -96,10 +96,6 @@
         </div>
     </section>
 
-  </body>
-</main>
-</html>
-
 <?php
   include 'inc/footer.php';
 ?>
