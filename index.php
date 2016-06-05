@@ -1,4 +1,4 @@
-<?php 
+<?php
   include 'inc/header.php';
 ?>
 
@@ -21,7 +21,7 @@
         </div>
         <div class="contentCenter">
           <h1>1 Hour Per Month</h1>
-          <h2>Elderly men take their own lives at two times the national average. With just one hour per month, we can make a change.</h2>                
+          <h2>Elderly men take their own lives at two times the national average. With just one hour per month, we can make a change.</h2>
         </div>
       </div>
     </section>
@@ -38,9 +38,9 @@
       <div class="contentRow">
         <div class="contentCenter">
           <h1>Helping Old Mates</h1>
-          <h2>I hereby take the pledge to spend at least one hour per month with an old mate for the next twelve months.</h2>   
+          <h2>I hereby take the pledge to spend at least one hour per month with an old mate for the next twelve months.</h2>
         </div>
-        <div class="contentCenter">      
+        <div class="contentCenter">
           <div id="mc_embed_signup">
           <form action="//spurprojects.us2.list-manage.com/subscribe/post?u=c319b91ac25607f4451c84e2b&amp;id=a34e1c5eb6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
           <div id="mc_embed_signup_scroll">
@@ -90,37 +90,13 @@
     <!-- Twitter Page -->
     <section class="contentMain">
       <div class="contentTwitter">
-        <div class="contentGrid">
-          <div class="contentStyle">
-            <p>Just spent the day fishing with #oldmate gotta love a bit of sunshine!</p>
-          </div>
-        </div>
-        <div class="contentGrid">
-          <div class="contentStyle">
-            <p>Just spent the day fishing with #oldmate gotta love a bit of sunshine!</p>
-          </div>
-        </div>
-        <div class="contentGrid">
-          <div class="contentStyle">
-            <p>Just spent the day fishing with #oldmate gotta love a bit of sunshine!</p>
-          </div>
-        </div>
-        <div class="contentGrid">
-          <div class="contentStyle">
-            <p>Just spent the day fishing with #oldmate gotta love a bit of sunshine!</p>
-          </div>
-        </div>
-        <div class="contentGrid">
-          <div class="contentStyle">
-            <p>Just spent the day fishing with #oldmate gotta love a bit of sunshine!</p>
-          </div>
-        </div>
+        <?php include 'apis/twitter-feed.php' ?>
     </section>
 
   </body>
 </main>
 </html>
 
-<?php 
+<?php
   include 'inc/footer.php';
 ?>
