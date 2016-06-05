@@ -28,6 +28,15 @@
     text-decoration: none;
   }
 
+  h2 a {
+    text-decoration: none;
+    color: #E1942D;
+  }
+
+  h2 a:hover {
+    color: #EFC184;
+  }
+
   nav a:hover {
     color: #005493;
   }
@@ -120,9 +129,19 @@
     filter: grayscale(100%);
   }
 
+  .titleContent ul {
+    font-size: 3em;
+    list-style: none;
+  }
+
+  .titleContent ul li {
+    padding: 20px;
+    color: white;
+  }
+
   .titleContent h5 {
     margin: 0;
-    font-size: 6em;
+    font-size: 8em;
     text-transform: uppercase;
   }
 
@@ -282,6 +301,7 @@
 
   .contentMain ul {
     color: #fff;
+    font-size: 2em;
   }
 
   .contentRow {
@@ -345,6 +365,7 @@
   .altText h1, .altText h2 {
     color: black;
   }
+<<<<<<< HEAD
 
   .contactForm {
     width: 50%;
@@ -358,4 +379,3 @@
   .contactText {
     height: 200px;
   }
-
