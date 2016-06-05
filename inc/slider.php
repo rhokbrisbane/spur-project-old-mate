@@ -3,6 +3,7 @@
     position: relative;
   }
   .slider .container {
+    transform: translateY(-50%);
     position: absolute;
     opacity: 0;
     transition: opacity 0.5s;
