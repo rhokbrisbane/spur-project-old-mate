@@ -21,7 +21,7 @@
         </div>
         <div class="contentCenter">
           <h1>1 Hour Per Month</h1>
-          <h2>Elderly men take their own lives at two times the national average. With just one hour per month, we can make a change.</h2>
+          <h2>Elderly men take their own lives at two times the national average. With just one hour per month, we can change that.</h2>
         </div>
       </div>
     </section>
@@ -37,7 +37,7 @@
     <section class="contentMain contentColor">
       <div class="contentRow">
         <div class="contentCenter">
-          <h1>Helping Old Mates</h1>
+          <h1>Take the Pledge</h1>
           <h2>I hereby take the pledge to spend at least one hour per month with an old mate for the next twelve months.</h2>
         </div>
         <div class="contentCenter">
