@@ -19,10 +19,10 @@ $results = $toa->get('search/tweets', $query);
 
 $count = 0;
 foreach ($results->statuses as $result) {
-  if ($count > 9) {
+  if ($count > 7) {
     break;
   }
-  echo '<div class="contentGrid"><div class="contentStyle"><p>' . $result->text . '</p><p>' . $result->user->screen_name . '</p></div></div>';
+  echo '<div class="contentGrid"><div class="contentStyle"><p>' . $result->text . '</p><p>' . $result->user->screen_name . '</p></div><div class="triangle"></div></div>';
   $count++;
   // echo "<p>" . $result->user->screen_name . ": " . $result->text . "\n". "</p>";
 }
