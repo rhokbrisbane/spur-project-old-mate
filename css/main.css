@@ -58,7 +58,7 @@
     color: #888;
     font-family: 'Roboto', sans-serif !important;
     font-size: 2em;
-    text-indent: 10px; 
+    text-indent: 10px;
   }
 
   input:focus, textarea:focus {
@@ -379,4 +379,19 @@
 
   .contactText {
     height: 200px;
+  }
+
+/* Footer Styling */
+
+  .footer .col1 {
+    padding: 25px 50px 25px 200px;
+
+  }
+
+  .footer .col2 {
+    padding: 25px;
+  }
+
+  .footer .col3 {
+    padding: 25px 200px 25px 25px;
   }
