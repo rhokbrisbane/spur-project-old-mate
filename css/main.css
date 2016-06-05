@@ -335,6 +335,7 @@
   }
 
   .contentTwitter {
+    height: 800px;
     background: #484A93;
     background: -moz-linear-gradient(-45deg,  rgba(72,74,147,0.8) 0%, rgba(0,84,147,0.8) 100%);
     background: -webkit-linear-gradient(-45deg,  rgba(72,74,147,0.8) 0%,rgba(0,84,147,0.8) 100%);
@@ -344,6 +345,7 @@
 
   .contentGrid {
     float: left;
+    font-family: 'Roboto', sans-serif;
     width: 20%;
     height: 30vh;
   }
@@ -365,7 +367,6 @@
   .altText h1, .altText h2 {
     color: black;
   }
-<<<<<<< HEAD
 
   .contactForm {
     width: 50%;

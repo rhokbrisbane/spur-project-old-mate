@@ -89,8 +89,10 @@
 
     <!-- Twitter Page -->
     <section class="contentMain contentColor">
-        <?php include 'apis/twitter-feed.php' ?>
-      <div class="clearfix"></div>
+        <div class="contentTwitter">
+          <?php include 'apis/twitter-feed.php' ?>
+          <div class="clearfix"></div>
+        </div>
     </section>
 
   </body>
