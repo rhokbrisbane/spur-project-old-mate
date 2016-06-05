@@ -3,11 +3,13 @@
 ?>
 <!-- Stories Headings -->
 <section class="titleBlock">
-  <div class="titleContent backOne">
+  <article class="titleContent backOne">
     <h5>Stories</h5>
-    <h2>Below is a collection of posts from the Old Mate army. These are a combination of social media posts
-    with the hashtag #oldmate, as well as personal stories.</h2>
-  </div>
+    <ul>
+      <li>Share your story</li>
+    </ul>
+    </h2>
+  </article>
 </section>
 
 <!-- STORIES FEED -->
@@ -52,30 +54,6 @@
     </div>
   </div>
 </section>
-<section class="">
-  <!-- Montly Old Mate Ideas -->
-  <article>
-    <div>
-      <img src="img\hero.jpg"/>
-    </div>
-    <div>
-      <img src="img\hero.jpg"/>
-    </div>
-    <div>
-      <img src="img\hero.jpg"/>
-    </div>
-    <div>
-      <img src="img\hero.jpg"/>
-    </div>
-    <div>
-      <img src="img\hero.jpg"/>
-    </div>
-    <div>
-      <img src="img\hero.jpg"/>
-    </div>
-  </article>
-</section>
-
 
 <?php
   include 'inc/footer.php';
