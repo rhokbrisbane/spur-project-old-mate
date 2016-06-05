@@ -41,16 +41,27 @@
           <h2>I hereby take the pledge to spend at least one hour per month with an old mate for the next twelve months.</h2>   
         </div>
         <div class="contentCenter">      
-          <form action="">
-            <h1>Sign Up</h1>
-            <label for="firstname">First Name</label>
-            <input type="text" name="firstname" id="firstname"></input><br>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email"></input><br>
-            <label for="postcode">Post Code</label>
-            <input type="text" name="postcode" id="postcode"></input><br>
-            <input type="submit" name="submit" id="submit"></input>
-          </form>    
+          <div id="mc_embed_signup">
+          <form action="//spurprojects.us2.list-manage.com/subscribe/post?u=c319b91ac25607f4451c84e2b&amp;id=a34e1c5eb6" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+          <div id="mc_embed_signup_scroll">
+          <div class="mc-field-group">
+              <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email">
+          </div>
+          <div class="mc-field-group">
+              <input type="text" value="" name="NAME" class="required" id="mce-NAME" placeholder="Name">
+          </div>
+          <div class="mc-field-group">
+              <input type="text" value="" name="POSTCODE" class="required" id="mce-POSTCODE" placeholder="Email">
+          </div>
+              <div id="mce-responses" class="clear">
+                  <div class="response" id="mce-error-response" style="display:none"></div>
+                  <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>
+             <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c319b91ac25607f4451c84e2b_a34e1c5eb6" tabindex="-1" value=""></div>
+             <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button basicButton"></div>
+             </div>
+          </form>
+          </div>
         </div>
       </div>
     </section>
