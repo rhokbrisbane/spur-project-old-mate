@@ -42,15 +42,33 @@
   }
 
   input {
-    width: 70%;
-    margin: 0 0 10px 0;
+    width: 80%;
+    margin: 0 0 10px 0 !important;
     border: none;
     padding: 10px;
-    font-family: 'Roboto', sans-serif;
+    color: #888;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 2em;
   }
 
   input:focus, textarea:focus {
     outline: none;
+  }
+
+  .submitButton {
+    width: 85%;
+    border: 2px solid #fff;
+    color: #fff;
+    background: none;
+  }
+
+  .submitButton:hover {
+    color: #888;
+    background-color: #fff;
+    -webkit-transition: background-color 500ms ease-out 1s;
+    -moz-transition: background-color 500ms ease-out 1s;
+    -o-transition: background-color 500ms ease-out 1s;
+    transition: background-color 500ms ease-out 1s;
   }
 
   .wrapper {
@@ -150,6 +168,7 @@
 }
 
 .subheading h2 {
+  font-size: 2em;
   margin-top: auto;
   color: white;
 }
