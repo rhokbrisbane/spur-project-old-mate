@@ -28,8 +28,17 @@
     text-decoration: none;
   }
 
+  h2 a {
+    text-decoration: none;
+    color: #E1942D;
+  }
+
+  h2 a:hover {
+    color: #EFC184;
+  }
+
   nav a:hover {
-    color: #005493;
+    color: #E1942D;
   }
 
   body, html {
@@ -41,14 +50,15 @@
     font-weight: normal;
   }
 
-  input {
-    width: 80%;
+  input, textarea {
+    width: 100%;
     margin: 0 0 10px 0 !important;
     border: none;
-    padding: 10px;
+    padding: 10px 0;
     color: #888;
     font-family: 'Roboto', sans-serif !important;
     font-size: 2em;
+    text-indent: 10px; 
   }
 
   input:focus, textarea:focus {
@@ -56,7 +66,7 @@
   }
 
   .submitButton {
-    width: 85%;
+    width: 100%;
     border: 2px solid #fff;
     color: #fff;
     background: none;
@@ -119,9 +129,19 @@
     filter: grayscale(100%);
   }
 
+  .titleContent ul {
+    font-size: 3em;
+    list-style: none;
+  }
+
+  .titleContent ul li {
+    padding: 20px;
+    color: white;
+  }
+
   .titleContent h5 {
     margin: 0;
-    font-size: 6em;
+    font-size: 8em;
     text-transform: uppercase;
   }
 
@@ -281,6 +301,7 @@
 
   .contentMain ul {
     color: #fff;
+    font-size: 2em;
   }
 
   .contentRow {
@@ -344,4 +365,17 @@
   .altText h1, .altText h2 {
     color: black;
   }
+<<<<<<< HEAD
 
+  .contactForm {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .contactInput {
+    width: 100%;
+  }
+
+  .contactText {
+    height: 200px;
+  }
