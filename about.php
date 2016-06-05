@@ -52,15 +52,19 @@
 
   <!-- Get In Touch -->
   <section class="subheading">
-    <article>
+    <article class="contentCenter">
       <h1>Get in touch</h1>
       <!-- Form Mails to mail@spurprojects.org -->
       <form action="">
-            <label for="subject">Subject</label>
-            <input type="text" name="subject" id="subject"/>
-            <label for="message">Message</label>
-            <textarea type="message" name="message" id="message"/></textarea>
-            <input type=submit id="contactSubmit" value="Email"/>
+        <div>
+          <input type="text" name="subject" id="subject" placeholder="Subject"/>
+        </div>
+        <div>
+          <textarea type="message" name="message" id="message" placeholder="Message"/></textarea>
+        </div>
+        <div>
+            <input class="submitButton" type=submit id="contactSubmit" value="Email"/>
+        </div>
       </form>
     </article>
   </section>
