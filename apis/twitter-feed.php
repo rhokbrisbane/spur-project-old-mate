@@ -1,6 +1,6 @@
 
 <?php
-require "../vendor/autoload.php";
+require "./vendor/autoload.php";
 use Abraham\TwitterOAuth\TwitterOAuth;
 
 define('CONSUMER_KEY', 'bZBePzKUIAgUD67Q5S1XyAt8d');
@@ -18,7 +18,8 @@ $query = array(
 $results = $toa->get('search/tweets', $query);
 
 foreach ($results->statuses as $result) {
-  echo "<p>" . $result->user->screen_name . ": " . $result->text . "\n". "</p>";
+  echo '<div class="contentGrid"><div class="contentStyle"><p>' . $result->text . '</p><p>' . $result->user->screen_name . '</p></div></div>';
+  // echo "<p>" . $result->user->screen_name . ": " . $result->text . "\n". "</p>";
 }
 
 ?>

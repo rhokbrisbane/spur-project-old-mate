@@ -95,7 +95,8 @@
             <p>Just spent the day fishing with #oldmate gotta love a bit of sunshine!</p>
           </div>
         </div>
-
+        <?php include 'apis/twitter-feed.php' ?>
+      </div>
     </section>
 
   </body>
