@@ -40,7 +40,9 @@ function postToChimp(){
 
 	// execute post
 	$result = curl_exec($ch);
-
+	if($result == 1){
+		header("Location: http://oldmate.spurprojects.org/");		
+	}
 	// close connection
 	curl_close($ch);
 	
