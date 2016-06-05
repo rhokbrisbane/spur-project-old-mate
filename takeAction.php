@@ -2,9 +2,6 @@
   include 'inc/header.php';
 ?>
 
-<main class="wrapper">
-  <body>
-
   <!-- One Hour Headings -->
   <section class="titleBlock">
     <article class="titleContent backFive">
@@ -46,7 +43,7 @@
       <h1>Month 2: Gardening</h1>
       <h2>
         Chances are your Old Mate will have a green thumb, but in their older years they may not be as mobile as they used to be. </h2><br/>
-          <h2>Take an hour to stop over to your Old Mates house and help him with some of the trickier yard work that he can no longer do safely. 
+          <h2>Take an hour to stop over to your Old Mates house and help him with some of the trickier yard work that he can no longer do safely.
         </h2><br/>
           <h2>It’s a great way to spend time with your Old Mate as well as helping them look after their home and garden! #oldmate
       </h2>
@@ -209,9 +206,6 @@
       </div>
     </article>
   </section>
-</body>
-</main>
-</html>
 
 <?php
 include 'inc/footer.php';
