@@ -90,6 +90,30 @@
     background: rgba(0,0,0,.4);
   }
 
+/* Sub heading styles */
+
+.subheading {
+  display: table;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color: black;
+  color:white;
+}
+
+.subheading div {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.subheading h2 {
+  margin-top: auto;
+  color: white;
+}
+
+/* Background Images for Index.php */
+
   .backOne {
     height: 800px;
     background: url('../img/001.jpg') no-repeat center center fixed;
@@ -126,10 +150,25 @@
     background-size: cover;
   }
 
+/* Background Images for Onehour.php */
+
+.backFive {
+  height: 800px;
+  background: url('../img/onehourHero.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
   /* Content Styling */
 
   .contentMain {
     width: 100%;
+  }
+
+  .contentMain ul {
+    color: white;
   }
 
   .contentRow {
@@ -143,6 +182,10 @@
     width: 50%;
     padding: 200px;
     vertical-align: middle;
+  }
+
+  .contentAlt {
+    background-color: black;
   }
 
   .contentTwitter {
