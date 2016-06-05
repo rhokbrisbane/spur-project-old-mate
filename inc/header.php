@@ -40,9 +40,9 @@
 <header class="header">
   <nav>
     <ul>
-      <li><a href="#1">Mission</a></li>
-      <li><a href="#2">Pledge</a></li>
-      <li><a href="#3">Get Involved</a></li>
+      <li><a href="#1">Home</a></li>
+      <li><a href="#2">About</a></li>
+      <li><a href="#3">Stories</a></li>
       <li><a href="#4">Donate</a></li>
     </ul>
   </nav>

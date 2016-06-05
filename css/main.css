@@ -62,6 +62,15 @@
     background: none;
   }
 
+  .submitButton:hover {
+    color: #888;
+    background-color: #fff;
+    -webkit-transition: background-color 500ms ease-out 1s;
+    -moz-transition: background-color 500ms ease-out 1s;
+    -o-transition: background-color 500ms ease-out 1s;
+    transition: background-color 500ms ease-out 1s;
+  }
+
   .wrapper {
     width: 100%;
     margin: 0 auto;
