@@ -37,17 +37,20 @@
       <form action="postdataforstory" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="">
       <div class="mc-field-group">
-          <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Name">
+          <input type="text" value="" name="NAME" class="required name" id="mce-NAME" placeholder="Name">
       </div>
       <div class="mc-field-group">
-          <textarea type="text" value="" name="NAME" class="required" id="mce-NAME" placeholder="Story"></textarea>
+          <textarea type="text" value="" name="MESSAGE" class="required message" id="mce-MESSAGE" placeholder="Story"></textarea>
+      </div>
+	  <div class="mc-field-group">
+          <textarea type="text" value="" name="POSTCODE" class="required postcode" id="mce-POSTCODE" placeholder="Post code"></textarea>
       </div>
       <div id="mce-responses" class="clear">
           <div class="response" id="mce-error-response" style="display:none"></div>
           <div class="response" id="mce-success-response" style="display:none"></div>
       </div>
-       <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c319b91ac25607f4451c84e2b_a34e1c5eb6" tabindex="-1" value=""></div>
-       <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button submitButton"></div>
+       <div style="position: absolute; left: -5000px;" aria-hidden="true"></div>
+       <div class="clear"><input type="submit" value="Submit" name="Submit" id="mc-embedded-subscribe" class="button submitButton"></div>
        </div>
       </form>
       </div>
