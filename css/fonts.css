@@ -1,25 +1,10 @@
 @font-face {
-	font-family:'MaisonNeue-Medium';
-	src: url('../fonts/MaisonNeue-Medium_gdi.eot');
-	src: url('../fonts/MaisonNeue-Medium_gdi.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/MaisonNeue-Medium_gdi.woff') format('woff'),
-		url('../fonts/MaisonNeue-Medium_gdi.ttf') format('truetype'),
-		url('../fonts/MaisonNeue-Medium_gdi.svg#MaisonNeue-Medium') format('svg');
-	font-weight: 500;
-	font-style: normal;
-	font-stretch: normal;
-	unicode-range: U+0020-25CA;
-}
-
-@font-face {
-    font-family:'MaisonNeue-Light';
-    src: url('../fonts/MaisonNeue-Light_gdi.eot');
-    src: url('../fonts/MaisonNeue-Light_gdi.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/MaisonNeue-Light_gdi.woff') format('woff'),
-        url('../fonts/MaisonNeue-Light_gdi.ttf') format('truetype'),
-        url('../fonts/MaisonNeue-Light_gdi.svg#MaisonNeue-Light') format('svg');
-    font-weight: 300;
+    font-family: 'bebas_bold';
+    src: url('../fonts/bebas_bold.eot?') format('eot');
+    src: url('../fonts/bebas_bold.eot?iefix') format('embedded-opentype'),
+    url('../fonts/bebas_bold.woff') format('woff'),
+    url('../fonts/bebas_bold.ttf') format('truetype'),
+    url('../fonts/bebas_bold.svg#bebas_bold') format('svg');
+    font-weight: normal;
     font-style: normal;
-    font-stretch: normal;
-    unicode-range: U+0020-25CA;
 }

@@ -8,13 +8,13 @@
     <!-- Call To Action-->
     <section class="titleBlock">
       <div class="titleContent backOne">
-        <h1>Old Mates</h1>
+        <h5>Old Mates</h5>
         <h2>Suicide Prevention Never Gets Old</h2>
       </div>
     </section>
 
     <!-- Info Page -->
-    <section class="contentMain">
+    <section class="contentMain contentColor">
       <div class="contentRow">
         <div class="contentCenter">
           <img class="imgCircle" src="img/guy.png">
@@ -34,7 +34,7 @@
     </section>
 
     <!-- Sign Up Page -->
-    <section class="contentMain">
+    <section class="contentMain contentColor">
       <div class="contentRow">
         <div class="contentCenter">
           <h1>Helping Old Mates</h1>
@@ -55,21 +55,21 @@
     </section>
 
     <!-- Old Mate Updates -->
-    <section class="titleBlock">
+    <section class="titleBlock  contentColor">
       <div class="titleContent backThree">
         <h1>Old Mate Hours Tracked This Month: 6500</h1>
       </div>
     </section>
 
     <!-- Old Google Map -->
-    <section class="mapSection">
+    <section class="mapSection contentColor">
       <div class="mapContent">
         <div id="map_canvas"></div>
       </div>
     </section>
 
     <!-- Old Mate Updates -->
-    <section class="titleBlock">
+    <section class="titleBlock contentColor">
       <div class="titleContent backFour">
         <h1>Old Mate Army Updates</h1>
       </div>
