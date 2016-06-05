@@ -42,6 +42,7 @@
         </div>
         <div class="contentCenter">      
           <form action="">
+            <h1>Sign Up</h1>
             <label for="firstname">First Name</label>
             <input type="text" name="firstname" id="firstname"></input><br>
             <label for="email">Email</label>

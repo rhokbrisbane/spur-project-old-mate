@@ -8,9 +8,8 @@
   <!-- One Hour Headings -->
   <section class="titleBlock">
     <article class="titleContent backFive">
-      <h1>One Hour</h1>
-      <h2>
-      Just one hour a month is all it takes to foster connectivity with an Old Mate.
+      <h5>One Hour</h5>
+      <h2>Just one hour a month is all it takes to foster connectivity with an Old Mate.</h2>
       </h2>
     </article>
   </section>
@@ -23,7 +22,7 @@
   </section>
 
   <!-- Montly Old Mate Ideas -->
-  <section class="contentMain">
+  <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
         <img class="imgCircle" src="img\actions-chess.jpeg">
@@ -53,7 +52,7 @@
     </div>
     </article>
   </section>
-  <section class="contentMain">
+  <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
         <img class="imgCircle" src="img\alone-beach.jpeg">
@@ -87,7 +86,7 @@
       </div>
     </article>
   </section>
-  <section class="contentMain">
+  <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
         <img class="imgCircle" src="img\actions-chess.jpeg">
@@ -115,7 +114,7 @@
       </div>
     </article>
   </section>
-  <section class="contentMain">
+  <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
         <img class="imgCircle" src="img\actions-chess.jpeg">
@@ -143,7 +142,7 @@
       </div>
     </article>
   </section>
-  <section class="contentMain">
+  <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
         <img class="imgCircle" src="img\actions-chess.jpeg">
@@ -171,7 +170,7 @@
       </div>
     </article>
   </section>
-  <section class="contentMain">
+  <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
         <img class="imgCircle" src="img\actions-chess.jpeg">
@@ -200,7 +199,7 @@
     </section>
 
     <!-- Tips and Tricks -->
-    <section class="contentMain">
+    <section class="contentMain contentColor">
       <article class="contentRow">
       <div class="contentCenter">
         <h1>Tips:</h1>
