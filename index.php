@@ -16,9 +16,12 @@
     <!-- Info Page -->
     <section class="contentMain contentColor">
       <div class="contentRow">
-        <div class="contentCenter">
+        <?php
+        include 'inc/slider.php';
+        ?>
+        <!-- <div class="contentCenter">
           <img class="imgCircle" src="img/guy.png">
-        </div>
+        </div> -->
         <div class="contentCenter">
           <h1>1 Hour Per Month</h1>
           <h2>Elderly men take their own lives at two times the national average. With just one hour per month, we can change that.</h2>
