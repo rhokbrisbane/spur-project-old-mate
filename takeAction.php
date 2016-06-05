@@ -26,7 +26,7 @@
   <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
-        <img class="imgCircle" src="img\actions-chess.jpeg">
+        <img class="imgCircle" src="img\ActionsChess.jpg">
       </div>
       <div class="contentCenter">
         <h1>Month 1: Chess</h1>
@@ -38,21 +38,21 @@
   </section>
   <section class="contentMain contentAlt">
     <article class="contentRow">
-    <div class="contentCenter">
+    <div class="contentCenter altText">
       <h1>Month 2: Gardening</h1>
       <h2>
         Chances are your Old Mate will have a green thumb, but in their older years they may not be as mobile as they used to be. Take an hour to stop over to your Old Mates house and help him with some of the trickier yard work that he can no longer do safely. It’s a great way to spend time with your Old Mate as well as helping them look after their home and garden! #oldmate
       </h2>
     </div>
     <div class="contentCenter">
-      <img class="imgCircle" src="img\alone-beach.jpeg">
+      <img class="imgCircle" src="img\ActionsGardening.jpg">
     </div>
     </article>
   </section>
   <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
-        <img class="imgCircle" src="img\alone-beach.jpeg">
+        <img class="imgCircle" src="img\ActionsVolunteering.jpg">
       </div>
       <div class="contentCenter">
       <h1>Month 3: Volunteering at an aged-care facility</h1>
@@ -64,21 +64,21 @@
   </section>
   <section class="contentMain contentAlt">
     <article class="contentRow">
-      <div class="contentCenter">
+      <div class="contentCenter altText">
       <h1>Month 4: Old Mate Double-Date!</h1>
       <h2>
         Set up a meal or a coffee with your Old Mate, a friend and their Old Mate and let the good times roll! It’s a great activity to tackle with a friend as it may require a little travel and organisation. #oldmate
       </h2>
       </div>
       <div class="contentCenter">
-        <img class="imgCircle" src="img\actions-chess.jpeg">
+        <img class="imgCircle" src="img\ActionsCards.jpg">
       </div>
     </article>
   </section>
   <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
-        <img class="imgCircle" src="img\actions-chess.jpeg">
+        <img class="imgCircle" src="img\ActionsCards.jpg">
       </div>
       <div class="contentCenter">
       <h1>Month 5: Cards</h1>
@@ -90,21 +90,21 @@
   </section>
   <section class="contentMain contentAlt">
     <article class="contentRow">
-      <div class="contentCenter">
+      <div class="contentCenter altText">
       <h1>Month 6: Memoir</h1>
       <h2>
         Take the time to ask your Old Mate about their life, their history and some of the exciting experiences they have had. Of course keep in mind that some people may not want to share too much; these stories may remind them of people they’ve lost or activities they can’t do anymore, so be mindful of this in each instance. #oldmate
       </h2>
       </div>
       <div class="contentCenter">
-        <img class="imgCircle" src="img\actions-chess.jpeg">
+        <img class="imgCircle" src="img\ActionMemoir.jpg">
       </div>
     </article>
   </section>
   <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
-        <img class="imgCircle" src="img\actions-chess.jpeg">
+        <img class="imgCircle" src="img\ActionsMusic.jpg">
       </div>
       <div class="contentCenter">
         <h1>Month 7: Music</h1>
@@ -116,7 +116,7 @@
   </section>
   <section class="contentMain contentAlt">
     <article class="contentRow">
-      <div class="contentCenter">
+      <div class="contentCenter altText">
       <h1>Month 8: Get your friends and family involved!
       </h1>
       <h2>
@@ -131,7 +131,7 @@
   <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
-        <img class="imgCircle" src="img\actions-chess.jpeg">
+        <img class="imgCircle" src="img\ActionsMeal.jpg">
       </div>
       <div class="contentCenter">
       <h1>Month 9: Share a Meal</h1>
@@ -143,7 +143,7 @@
   </section>
   <section class="contentMain contentAlt">
     <article class="contentRow">
-      <div class="contentCenter">
+      <div class="contentCenter altText">
       <h1>Month 10: Check out your local RSL and community activities!</h1>
       <h2>
         Local RSL and community clubs run all sorts of fun social events like bingo, music nights, market stalls and general social gatherings. Call your local club to see what they have going on this month and line up your Old Mate to come along with you and reap the benefits! #oldmate
@@ -157,7 +157,7 @@
   <section class="contentMain contentColor">
     <article class="contentRow">
       <div class="contentCenter">
-        <img class="imgCircle" src="img\actions-chess.jpeg">
+        <img class="imgCircle" src="img\ActionsTea.jpg">
       </div>
       <div class="contentCenter">
       <h1>Month 11: Cup of tea &amp; photos!</h1>
@@ -168,15 +168,14 @@
     </article>
     <section class="contentMain contentAlt">
     <article classs="contentRow">
-      <div class="contentCenter">
-      <h1>Month 12: Wild card hobby choice!
-      </h1>
+      <div class="contentCenter altText">
+      <h1>Month 12: Wild card hobby choice!</h1>
       <h2>
         Ask your Old Mate what they want to do. What do they love? What have they done historically but haven’t done for ages? Take this opportunity to take your Old Mate out for lawn bowls, bird watching, tea or even a round of poker! You never know what adventure you might end up having. #oldmate
       </h2>
       </div>
       <div class="contentCenter">
-        <img class="imgCircle" src="img\actions-chess.jpeg">
+        <img class="imgCircle" src="img\ActionFishing.jpg">
       </div>
     </article>
     </section>

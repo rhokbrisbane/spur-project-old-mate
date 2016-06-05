@@ -342,7 +342,7 @@
     color: #fff;
   }
 
-  .altText h2 {
+  .altText h1, .altText h2 {
     color: black;
   }
 
