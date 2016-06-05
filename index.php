@@ -88,15 +88,9 @@
     </section>
 
     <!-- Twitter Page -->
-    <section class="contentMain">
-      <div class="contentTwitter">
-        <div class="contentGrid">
-          <div class="contentStyle">
-            <p>Just spent the day fishing with #oldmate gotta love a bit of sunshine!</p>
-          </div>
-        </div>
+    <section class="contentMain contentColor">
         <?php include 'apis/twitter-feed.php' ?>
-      </div>
+      <div class="clearfix"></div>
     </section>
 
   </body>
