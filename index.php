@@ -8,7 +8,7 @@
     <!-- Call To Action-->
     <section class="titleBlock">
       <div class="titleContent backOne">
-        <h5>Old Mates</h5>
+        <h5>#OLDMATE</h5>
         <h2>Suicide Prevention Never Gets Old</h2>
       </div>
     </section>
@@ -17,7 +17,11 @@
     <section class="contentMain contentColor">
       <div class="contentRow">
         <div class="contentCenter">
-          <img class="imgCircle" src="img/guy.png">
+          <img class="imgCircle" src="img/guy1.jpg">
+          <img class="imgCircle" src="img/guy2.jpg">
+          <img class="imgCircle" src="img/guy3.jpg">
+          <img class="imgCircle" src="img/guy4.jpg">
+          <img class="imgCircle" src="img/guy5.jpg">
         </div>
         <div class="contentCenter">
           <h1>1 Hour Per Month</h1>
