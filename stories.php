@@ -15,7 +15,11 @@
     <?php
       include 'php/queries.php';
 
-      echo getStories(5, 0);
+      $results = getStories(5, 0);
+      foreach ($results as $result) {
+        echo '<div class="contentRow"><div class="contentCenter"><h1>' . $result['name'] . '</h1><h2>' . $result['text'] . '</h2></div></div>';
+        // echo "<p>" . $result['name'] . ": " . $result['text'] . "</p>";
+      }
     ?>
   <div class="clearfix"></div>
 </section>

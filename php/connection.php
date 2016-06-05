@@ -1,10 +1,10 @@
 <?php
 
 function connect(){
-	$host = "66.116.150.173";
+	$host = "localhost";
 	$port = 3306;
-	$user = "BBBm1fa_admin";
-	$pwd = "OldMateArmy1";
+	$user = "root";
+	$pwd = "";
 	$db = "BBBm1fa_oldmate";
 	try{
 		$conn = new PDO( 'mysql:host=' . $host . ';port='.$port.';dbname=' . $db, $user, $pwd);
