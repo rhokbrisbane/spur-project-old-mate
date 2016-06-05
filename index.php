@@ -20,7 +20,7 @@
         include 'inc/slider.php';
         ?>
         <div class="contentCenter">
-          <h1>1 Hour Per Month</h1>
+          <h1>#THEFACTS</h1>
           <h2>Elderly men take their own lives at two times the national average. With just one hour per month, we can change that.</h2>
         </div>
       </div>
@@ -29,7 +29,8 @@
     <!-- Join The Old Mate Army -->
     <section class="titleBlock">
       <div class="titleContent backTwo">
-        <h1>Join The Old Mate Army</h1>
+        <h1>Pledge Just One Hour.<br>
+        Join The Old Mate Army.</h1>
       </div>
     </section>
 
